@@ -1,6 +1,5 @@
 h1,
-h2,
-nav {
+h2 {
   font-family: "Barlow", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   margin: 0px;
@@ -17,7 +16,8 @@ h2 {
 }
 
 h3,
-p {
+p,
+nav {
   font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
 }
 
@@ -66,18 +66,35 @@ header {
   border-radius: 50px;
 }
 
-nav {
-  font-size: 1.4em;
-  letter-spacing: 3px;
+.logo-and-text {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 180px;
+}
+.text-logo {
+  align-self: end;
 }
 
-nav li {
+.nav {
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  max-width: 1200px;
+  text-transform: uppercase;
+}
+
+.nav li {
   display: inline;
   padding: 10px;
 }
 
-ul {
-  margin: 0px;
+.nav ul {
+  max-width: 620px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-banner {
