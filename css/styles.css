@@ -1,0 +1,87 @@
+h1,
+h2,
+nav {
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 8px;
+}
+
+h2 {
+  font-size: 2.5em;
+  letter-spacing: 6px;
+}
+
+h3,
+p {
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-variant: small-caps;
+  font-size: 2.2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #edebeb;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #edebeb;
+}
+
+header,
+footer {
+  background-color: #1a1a1a;
+  color: #edebeb;
+}
+
+header {
+  padding: 20px;
+}
+
+.cta {
+  font-family: "Ravi Prakash";
+}
+
+.logo {
+  max-width: 78px;
+  border-radius: 50px;
+}
+
+nav {
+  font-size: 1.4em;
+  letter-spacing: 3px;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+ul {
+  margin: 0px;
+}
+
+.hero-banner {
+  background-image: url(/images/william-bout-264826.jpg);
+  margin: 0px;
+  height: 666px;
+}
