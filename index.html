@@ -15,17 +15,20 @@
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
     <title>Community Science Museum | Home</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="nav">
+          <input type="checkbox" id="menu-checkbox" />
+          <label for="menu-checkbox"><img src="/images/hamburger-menu.png" /></label>
           <div class="logo-and-text">
             <a href="index.html"><img src="/images/open-science-735787.jpg" alt="Home page" class="logo" /></a>
-            <a href="index.html"><img src="/images/community-science-museum.png" alt="Community Science Museum" class="text-logo" /></a>
+            <a href="index.html" class="text-logo"><img src="/images/community-science-museum.png" alt="Community Science Museum" /></a>
           </div>
-          <ul>
+          <ul class="nav-links">
             <li><a href="explore.html">Explore</a></li>
             <li><a href="for-kids.html">For kids</a></li>
             <li><a href="visit.html">Visit the museum</a></li>
@@ -82,25 +85,27 @@
       </section>
     </main>
     <footer>
-      <h2>Contact us:</h2>
-      <div>
-        <p>Community Science Museum</p>
-        <p>Main Street 905, 0161 OSLO</p>
-      </div>
-      <p>Phone: 90 80 70 60</p>
-      <p>Email: contact@communityscience.museum</p>
-      <nav>
-        <ul>
-          <li><a href="visit.html">Opening hours</a></li>
-          <li><a href="about.html">About us</a></li>
-        </ul>
-      </nav>
-      <p>&COPY;2023 Community Science Museum</p>
-      <div>
-        <img src="images/icon_instagram.png" alt="instagram" />
-        <img src="images/icon_facebook.png" alt="facebook" />
-        <img src="images/icon_youtube.png" alt="youtube" />
-      </div>
+      <section class="footer">
+        <h2>Contact us:</h2>
+        <div class="adress">
+          <p>Community Science Museum</p>
+          <p>Main Street 905, 0161 OSLO</p>
+        </div>
+        <p class="phone">Phone: 90 80 70 60</p>
+        <p class="csm-email">Email: contact@communityscience.museum</p>
+        <nav>
+          <ul>
+            <li><a href="visit.html">Opening hours</a></li>
+            <li><a href="about.html">About us</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">&COPY;2023 Community Science Museum</p>
+        <div class="social-media">
+          <img src="images/icon_instagram.png" alt="instagram" />
+          <img src="images/icon_facebook.png" alt="facebook" />
+          <img src="images/icon_youtube.png" alt="youtube" />
+        </div>
+      </section>
     </footer>
   </body>
 </html>

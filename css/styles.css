@@ -5,16 +5,6 @@ h2 {
   margin: 0px;
 }
 
-h1 {
-  font-size: 3em;
-  letter-spacing: 8px;
-}
-
-h2 {
-  font-size: 2.5em;
-  letter-spacing: 6px;
-}
-
 h3,
 p,
 nav {
@@ -23,11 +13,6 @@ nav {
 
 h3 {
   font-variant: small-caps;
-  font-size: 2.2em;
-}
-
-p {
-  font-size: 1.2em;
 }
 
 html,
@@ -58,28 +43,30 @@ header {
 }
 
 footer {
+  padding: 40px;
+}
+
+.footer {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(4, auto);
-  padding: 40px 400px;
+  margin: auto;
 }
 
 footer p {
   font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  margin: 2px;
 }
 
 footer h2 {
   font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
   color: #41a650;
-  font-size: 1.5em;
-  letter-spacing: 1px;
   font-variant: small-caps;
   text-transform: none;
+  margin: 0px;
 }
 
 footer ul {
   padding: 0px;
+  margin: 0px;
 }
 
 footer li {
@@ -93,18 +80,19 @@ footer li {
 }
 
 .logo {
-  max-width: 78px;
+  max-width: 51px;
   border-radius: 50px;
 }
 
 .logo-and-text {
   display: grid;
   grid-template-columns: auto auto;
-  max-width: 180px;
+  max-width: 110px;
 }
 
 .text-logo {
   align-self: end;
+  max-width: 63px;
 }
 
 .nav {
@@ -118,19 +106,30 @@ footer li {
   text-transform: uppercase;
 }
 
-.nav li {
-  display: inline;
-  padding: 10px;
-}
-
 .nav ul {
   max-width: 620px;
-  display: flex;
+  display: none;
   justify-content: space-between;
+  padding: 20px 20px 40px 20px;
+  margin: 264px 0px 0px -20px;
+  position: absolute;
+  background-color: #1a1a1a;
+}
+
+.nav li {
+  display: block;
+  margin-bottom: 6px;
+}
+
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ .nav-links {
+  display: block;
 }
 
 .hero-banner {
   background-image: url(/images/william-bout-264826.jpg);
   margin: 0px;
-  height: 666px;
 }
