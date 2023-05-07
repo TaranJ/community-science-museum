@@ -4,7 +4,6 @@ h2 {
   margin: 0px;
   color: #edebeb;
   font-weight: 400;
-  letter-spacing: 2px;
 }
 
 h1,
@@ -17,12 +16,20 @@ nav {
 }
 
 p {
-  line-height: 1.3;
+  line-height: 1.5;
+}
+
+h1 {
+  letter-spacing: 2px;
 }
 
 h3 {
   font-variant: small-caps;
   font-size: 1.4em;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 html,
@@ -176,6 +183,11 @@ footer nav {
 
 .cta {
   font-family: "Ravi Prakash";
+  background-color: #1a1a1a;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 0px 50px;
+  border-radius: 4px;
 }
 
 /* HOME PAGE */
@@ -213,10 +225,11 @@ footer nav {
 .news {
   display: grid;
   grid-template-columns: repeat(3, 100%);
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
-.news-heading {
+.news-heading,
+.our-exhibitions-mobile {
   color: #0d0d0d;
   margin: 30px 30px 20px 25px;
 }
@@ -233,12 +246,13 @@ footer nav {
   background-size: cover;
   background-position: center;
   min-height: 240px;
+  display: grid;
+  grid-template-rows: 60px auto;
 }
 
 .news-title {
   background-color: #3669a396;
-  padding: 1px;
-  width: 100%;
+  grid-area: 1/1;
 }
 
 .news-night .news-title {
@@ -259,8 +273,22 @@ footer nav {
 }
 
 .news-energy {
-  background-image: url(/images/bulb-g3f89b32c0_1920.jpg);
+  background-image: url(/images/bulb-g3f89b32c0_1920.png);
   background-position-x: left;
+}
+
+.news-aero p,
+.news-night p,
+.news-energy p {
+  grid-area: 2/1;
+}
+
+.news-aero img,
+.news-night img,
+.news-energy img {
+  justify-self: end;
+  grid-area: 2/1;
+  align-self: end;
 }
 
 .newsletter {
@@ -268,4 +296,44 @@ footer nav {
   margin-top: 25px;
   color: #edebeb;
   padding: 20px 30px;
+}
+
+.newsletter h2 {
+  font-size: 1.3em;
+}
+
+.newsletter-subtitle {
+  margin: 0px;
+  margin-top: 5px;
+  line-height: 1.3;
+}
+
+.newsletter-email {
+  margin-bottom: 0px;
+  font-size: 1.2em;
+}
+
+#newsletter {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.our-exhibitions-heading,
+.our-exhibitions p {
+  display: none;
+}
+
+.explore-section {
+  background-image: url(/images/exhibition-1863344_1920.jpg);
+  min-height: 324px;
+  background-size: cover;
+  background-position-x: right;
+  display: flex;
+}
+
+.explore-section .cta-mobile {
+  background-color: #41a650a4;
 }
