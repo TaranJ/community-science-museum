@@ -1,17 +1,17 @@
 /* DESKTOP */
 @media (min-width: 1000px) {
   h1 {
-    font-size: 3em;
-    letter-spacing: 8px;
-  }
-
-  h2 {
     font-size: 2.5em;
     letter-spacing: 6px;
   }
 
+  h2 {
+    font-size: 2.3em;
+    letter-spacing: 4px;
+  }
+
   h3 {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 
   p {
@@ -43,12 +43,100 @@
     max-width: 180px;
   }
 
-  .nav label {
+  .nav label,
+  .news-aero img,
+  .news-night img,
+  .news-energy img {
     display: none;
   }
 
-  .hero-banner {
+  /* HOME */
+  .hero-banner,
+  .explore-section {
     height: 666px;
+  }
+
+  .cta-varied {
+    font-size: 2.8em;
+    padding: 10px 125px 0px 125px;
+  }
+
+  .hero-banner h1 {
+    margin-bottom: 20px;
+  }
+
+  .news {
+    overflow-x: hidden;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+  }
+
+  .news-heading {
+    margin-left: 0px;
+  }
+
+  .news-aero,
+  .news-night,
+  .news-energy {
+    min-height: 550px;
+    grid-template-rows: 80px auto;
+  }
+
+  .news-energy {
+    background-position-x: 40%;
+  }
+
+  .news h3 {
+    margin: 15px 35px;
+    line-height: 0.8;
+  }
+
+  .news p {
+    margin-top: 40px;
+    font-size: 1.3em;
+    text-shadow: #000 2px 0 10px;
+  }
+
+  .whats-new {
+    display: grid;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .newsletter {
+    padding: 30px 40px;
+    margin-bottom: 50px;
+  }
+
+  .newsletter h2 {
+    font-size: 2.6em;
+  }
+
+  .newsletter-subtitle,
+  .newsletter-email {
+    font-size: 1.4em;
+  }
+
+  .newsletter-subtitle {
+    margin-bottom: 70px;
+  }
+
+  .newsletter-email {
+    margin-bottom: 10px;
+  }
+
+  #newsletter {
+    height: 45px;
+    width: 75%;
+    margin-bottom: 40px;
+  }
+
+  .cta {
+    margin-left: 20px;
+    padding: 5px 50px 2px 50px;
+    font-size: 2em;
   }
 }
 
@@ -106,6 +194,42 @@
   .social-media img {
     max-width: 59px;
   }
+  .our-exhibitions-mobile {
+    display: none;
+  }
+
+  .exhibition-img {
+    background-image: url(/images/exhibition.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .explore-section {
+    background-image: none;
+    display: grid;
+    color: #fff;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  .explore-section h2,
+  .explore-section p {
+    text-shadow: #000 2px 0 10px;
+    max-width: 500px;
+    margin-left: 40px;
+  }
+
+  .explore-section p {
+    align-self: start;
+  }
+
+  .explore-section .cta-varied {
+    background-color: #f08100;
+    padding: 10px 100px 0px 100px;
+    justify-self: end;
+    margin-right: 40px;
+  }
 }
 
 /* TABLET */
@@ -127,8 +251,166 @@
     padding: 10px;
     font-size: 0.9em;
   }
+
+  .hero-banner,
+  .explore-section {
+    height: 500px;
+  }
+
+  .news p {
+    max-width: 500px;
+    font-size: 1.3em;
+  }
+
+  .news-title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .news-aero,
+  .news-night,
+  .news-energy {
+    justify-items: center;
+    grid-template-rows: 70px auto;
+  }
+
+  .news-energy {
+    background-position-y: 90%;
+  }
+
+  .news-night {
+    background-position-y: top;
+  }
+
+  .newsletter {
+    padding: 30px 40px;
+  }
+
+  .newsletter h2 {
+    font-size: 2.2em;
+  }
+
+  .newsletter-subtitle,
+  .newsletter-email {
+    font-size: 1.1em;
+  }
+
+  .newsletter-subtitle {
+    margin-bottom: 50px;
+  }
+
+  .newsletter-email {
+    margin-bottom: 5px;
+  }
+
+  #newsletter {
+    height: 40px;
+    width: 70%;
+    margin-bottom: 40px;
+  }
+
+  .cta {
+    margin-left: 10px;
+    padding: 5px 30px 2px 30px;
+    font-size: 1.6em;
+  }
 }
 
-/* MOBILE */
-@media (max-width: 600px) {
+@media (min-width: 500px) {
+  /* HOME */
+  .arrow {
+    display: none;
+  }
+
+  .cta-varied {
+    font-family: "Ravi Prakash", Georgia, "Times New Roman", Times, serif;
+    background-color: #41a650;
+    width: fit-content;
+    align-self: start;
+    border: solid #000 1px;
+    box-shadow: 5px 5px 10px #000;
+  }
+
+  .cta-varied a {
+    margin: 0px;
+  }
+
+  .hero-banner {
+    place-items: center;
+  }
+
+  .hero-banner h1 {
+    align-self: end;
+    padding: 0px;
+    text-shadow: #000 2px 0 10px;
+    color: #fff;
+  }
+
+  .news-heading {
+    color: #a42e5d;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 699px) {
+  .hero-banner,
+  .explore-section {
+    height: 300px;
+  }
+
+  .explore-section {
+    display: grid;
+  }
+
+  .explore-section .cta-varied {
+    background-color: #f08100;
+    padding: 10px 70px 0px 70px;
+    place-self: end;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+  h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    font-size: 1.7em;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+  /* HOME */
+
+  .cta-varied {
+    font-size: 2em;
+    padding: 4px 90px 0px 90px;
+  }
+
+  .hero-banner h1 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1500px) {
+  .exhibition-img {
+    background-position-x: 40%;
+    background-position-y: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .our-exhibitions-heading,
+  .our-exhibitions p {
+    display: none;
+  }
 }

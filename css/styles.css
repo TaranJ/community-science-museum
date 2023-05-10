@@ -205,7 +205,7 @@ footer nav {
   padding-left: 25px;
 }
 
-.cta-mobile {
+.cta-varied {
   font-family: "Barlow", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -217,8 +217,8 @@ footer nav {
   justify-content: end;
 }
 
-.cta-mobile a,
-.cta-mobile img {
+.cta-varied a,
+.cta-varied img {
   margin-right: 15px;
 }
 
@@ -293,9 +293,11 @@ footer nav {
 
 .newsletter {
   background-color: #3668a3;
+  margin: auto;
   margin-top: 25px;
   color: #edebeb;
   padding: 20px 30px;
+  max-width: 1130px;
 }
 
 .newsletter h2 {
@@ -321,11 +323,6 @@ footer nav {
   border: none;
 }
 
-.our-exhibitions-heading,
-.our-exhibitions p {
-  display: none;
-}
-
 .explore-section {
   background-image: url(/images/exhibition-1863344_1920.jpg);
   min-height: 324px;
@@ -334,6 +331,6 @@ footer nav {
   display: flex;
 }
 
-.explore-section .cta-mobile {
+.explore-section .cta-varied {
   background-color: #41a650a4;
 }
