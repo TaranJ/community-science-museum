@@ -138,9 +138,24 @@
     padding: 5px 50px 2px 50px;
     font-size: 2em;
   }
+
+  /* EXPLORE */
+  .explore {
+    max-width: 1200px;
+  }
+
+  .explore h2 {
+    font-size: 1.8em;
+  }
+
+  .kids,
+  .teachers,
+  .researchers {
+    height: 210px;
+  }
 }
 
-/* TABLET AND DESKTOP */
+/* ---------------------------------- TABLET AND DESKTOP ------------------------------- */
 @media (min-width: 700px) {
   .footer {
     grid-template-columns: repeat(3, auto);
@@ -232,7 +247,7 @@
   }
 }
 
-/* TABLET */
+/* ------------------------------------- TABLET ------------------------------------- */
 @media (min-width: 700px) and (max-width: 999px) {
   .nav label {
     display: none;
@@ -314,8 +329,24 @@
     padding: 5px 30px 2px 30px;
     font-size: 1.6em;
   }
+
+  /* EXPLORE */
+  .explore {
+    max-width: 680px;
+  }
+
+  .explore h2 {
+    font-size: 1.5em;
+  }
+
+  .kids,
+  .teachers,
+  .researchers {
+    height: 250px;
+  }
 }
 
+/* -------------------------------------- 500 ------------------------------------------ */
 @media (min-width: 500px) {
   /* HOME */
   .arrow {
@@ -349,8 +380,56 @@
   .news-heading {
     color: #a42e5d;
   }
+
+  /* EXPLORE */
+  .explore {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-x: hidden;
+    margin: auto;
+    gap: 20px;
+  }
+
+  .explore h1 {
+    grid-row: -1;
+    margin-top: 50px;
+  }
+
+  .explore h2 {
+    letter-spacing: 0px;
+    grid-row: end;
+    padding: 15px;
+    text-shadow: none;
+  }
+
+  .explore .cta-varied {
+    display: none;
+  }
+
+  .kids,
+  .teachers,
+  .researchers {
+    grid-row: 2;
+  }
+
+  .kids {
+    background-position: 10%;
+  }
+
+  .kids h2 {
+    background-color: #f080008c;
+  }
+
+  .teachers h2 {
+    background-color: #a42e5d93;
+  }
+
+  .researchers h2 {
+    background-color: #3669a38f;
+  }
 }
 
+/* --------------------------------- BETWEEN 500 AND 700 --------------------------------- */
 @media (min-width: 500px) and (max-width: 699px) {
   .hero-banner,
   .explore-section {
@@ -369,8 +448,29 @@
     margin-right: 40px;
     font-size: 2em;
   }
+
+  /* EXPLORE */
+  .explore {
+    grid-gap: 5px;
+    max-width: 510px;
+  }
+
+  .explore h1 {
+    margin-top: 20px;
+  }
+
+  .explore h2 {
+    font-size: 1em;
+  }
+
+  .kids,
+  .teachers,
+  .researchers {
+    height: 210px;
+  }
 }
 
+/* --------------------------------- BETWEEN 500 AND 1000 --------------------------------- */
 @media (min-width: 500px) and (max-width: 999px) {
   h1 {
     font-size: 2em;
@@ -405,6 +505,12 @@
   .exhibition-img {
     background-position-x: 40%;
     background-position-y: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .explore h1 {
+    display: none;
   }
 }
 

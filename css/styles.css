@@ -190,7 +190,7 @@ footer nav {
   border-radius: 4px;
 }
 
-/* HOME PAGE */
+/* ------------------------------------ HOME PAGE ------------------------------------ */
 .hero-banner {
   background-image: url(/images/william-bout-264826.png);
   background-size: cover;
@@ -333,4 +333,55 @@ footer nav {
 
 .explore-section .cta-varied {
   background-color: #41a650a4;
+}
+
+/* ------------------------------------ EXPLORE ------------------------------------ */
+
+.explore {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow-x: auto;
+}
+
+.explore h1 {
+  color: #0d0d0d;
+}
+
+.explore h2 {
+  padding-top: 30px;
+  text-shadow: #000 2px 0 10px;
+  padding-left: 25px;
+}
+
+.explore p {
+  display: none;
+}
+
+.kids {
+  background-image: url(/images/learn-2405206_1920.jpg);
+}
+
+.teachers {
+  background-image: url(/images/teacher-g554695038_1920.jpg);
+}
+
+.researchers {
+  background-image: url(/images/people-219985_1280.jpg);
+}
+
+.kids,
+.teachers,
+.researchers {
+  height: 280px;
+  display: grid;
+  background-size: cover;
+  grid-template-rows: auto 1fr auto;
+}
+
+.teachers .cta-varied {
+  background-color: #a42e5da6;
+}
+
+.researchers .cta-varied {
+  background-color: #3669a3c4;
 }
