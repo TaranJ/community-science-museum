@@ -343,7 +343,8 @@ footer nav {
   overflow-x: auto;
 }
 
-.explore h1 {
+.explore h1,
+.exhibitions h2 {
   color: #0d0d0d;
 }
 
@@ -384,4 +385,51 @@ footer nav {
 
 .researchers .cta-varied {
   background-color: #3669a3c4;
+}
+
+.exhibitions {
+  display: grid;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.exhibitions h2 {
+  margin: 0px 0px -20px 10px;
+}
+
+.cosmology,
+.evolution,
+.biology,
+.robotics,
+.ecology {
+  display: grid;
+  color: #edebeb;
+}
+
+.cosmology,
+.robotics {
+  background-color: #a42e5d;
+}
+
+.evolution,
+.ecology {
+  background-color: #41a650;
+}
+
+.biology {
+  background-color: #3668a3;
+}
+
+.exhibitions img {
+  grid-row: 1;
+}
+
+.exhibitions-copy {
+  margin: auto;
+  max-width: 85%;
+  margin-bottom: 20px;
+}
+
+.exhibitions h3 {
+  margin-bottom: 0px;
 }
