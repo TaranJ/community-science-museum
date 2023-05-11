@@ -308,6 +308,27 @@
   .biology img {
     max-height: 580px;
   }
+
+  /* FOR KIDS */
+  .for-kids {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    gap: 60px;
+  }
+
+  .for-kids img {
+    height: auto;
+    justify-self: center;
+  }
+
+  .for-kids-copy {
+    align-self: center;
+    margin: 0px;
+  }
+
+  .for-kids h1 {
+    margin-bottom: 50px;
+  }
 }
 
 /* ------------------------------------- TABLET ------------------------------------- */
@@ -437,7 +458,7 @@
     max-height: 305px;
   }
 }
-/* -------------------------------------- 500 ------------------------------------------ */
+/* ------------------------------- BIGGER THAN 500 ------------------------------------ */
 @media (min-width: 500px) {
   /* HOME */
   .arrow {
@@ -574,6 +595,11 @@
   .exhibitions h2 {
     margin-left: 5%;
   }
+
+  /* FOR KIDS */
+  .for-kids img {
+    height: 450px;
+  }
 }
 
 /* --------------------------------- BETWEEN 500 AND 1000 --------------------------------- */
@@ -612,6 +638,7 @@
   }
 }
 
+/* --------------------------------- BETWEEN 500 AND 1500 --------------------------------- */
 @media (min-width: 500px) and (max-width: 1500px) {
   .exhibition-img {
     background-position-x: 40%;
@@ -619,15 +646,32 @@
   }
 }
 
+/* --------------------------------- MOBILE ---------------------------------------------- */
 @media (max-width: 500px) {
   .explore h1 {
     display: none;
   }
 }
 
+/* --------------------------------- SMALLER THAN 700 --------------------------------- */
 @media (max-width: 700px) {
   .our-exhibitions-heading,
   .our-exhibitions p {
     display: none;
+  }
+}
+
+/* --------------------------------- BIGGER THAN 1200 --------------------------------- */
+@media (min-width: 1200px) {
+  /* FOR KIDS */
+  .for-kids {
+    max-width: 1200px;
+    margin-top: 35px;
+    margin-bottom: 250px;
+  }
+
+  .for-kids img {
+    height: 740px;
+    width: 500px;
   }
 }
