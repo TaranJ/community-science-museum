@@ -409,6 +409,10 @@
     margin-bottom: -20px;
   }
 
+  .exhibitions-copy {
+    padding-bottom: 20px;
+  }
+
   .ecology img {
     width: 100%;
   }
@@ -416,8 +420,11 @@
   .evolution img {
     object-position: 30%;
   }
-}
 
+  .robotics img {
+    max-height: 305px;
+  }
+}
 /* -------------------------------------- 500 ------------------------------------------ */
 @media (min-width: 500px) {
   /* HOME */
