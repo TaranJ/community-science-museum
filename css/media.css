@@ -400,7 +400,6 @@
 
   .explore h2 {
     font-size: 1.5em;
-    white-space: nowrap;
   }
 
   .kids,
@@ -596,8 +595,8 @@
   p {
     font-size: 1.1em;
   }
-  /* HOME */
 
+  /* HOME */
   .cta-varied {
     font-size: 2em;
     padding: 4px 90px 0px 90px;
@@ -605,6 +604,11 @@
 
   .hero-banner h1 {
     margin-bottom: 10px;
+  }
+
+  /* EXPLORE */
+  .explore h2 {
+    white-space: nowrap;
   }
 }
 
