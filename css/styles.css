@@ -25,8 +25,7 @@ h1 {
   letter-spacing: 2px;
 }
 
-h3,
-legend {
+h3 {
   font-variant: small-caps;
   font-size: 1.4em;
 }
@@ -489,6 +488,8 @@ form {
 
 legend {
   padding-inline-start: 0px;
+  font-variant: small-caps;
+  font-size: 1.6em;
 }
 
 fieldset {
@@ -522,7 +523,7 @@ label {
 .join-form p {
   color: #5b5b5b;
   margin: 0px;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 #message {
