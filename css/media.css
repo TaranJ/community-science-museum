@@ -173,7 +173,7 @@
   }
 
   .ecology img {
-    max-height: 350px;
+    max-height: 370px;
     width: 100%;
   }
 }
@@ -277,8 +277,9 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .evolution img,
-  .robotics img {
+  .cosmology img,
+  .biology img,
+  .ecology img {
     grid-column: 2;
   }
 
@@ -400,13 +401,13 @@
     margin: auto;
     padding-top: 100px;
     gap: 40px;
-    margin-bottom: 40px;
   }
 
   .exhibitions h2 {
     font-size: 2em;
     letter-spacing: 3px;
     margin-bottom: -20px;
+    margin-left: 5%;
   }
 
   .exhibitions-copy {
@@ -549,13 +550,18 @@
   }
 
   .exhibitions {
-    margin: 50px auto;
+    margin: auto;
+    margin-top: 50px;
   }
 
   .exhibitions img {
     max-height: 250px;
     object-fit: cover;
     width: 100%;
+  }
+
+  .exhibitions h2 {
+    margin-left: 5%;
   }
 }
 
