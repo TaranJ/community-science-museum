@@ -414,12 +414,17 @@
     padding-bottom: 20px;
   }
 
+  .cosmology img {
+    max-height: 455px;
+  }
+
   .ecology img {
     width: 100%;
   }
 
   .evolution img {
     object-position: 30%;
+    max-height: 510px;
   }
 
   .robotics img {
@@ -428,6 +433,7 @@
 
   .biology img {
     max-height: 580px;
+    width: 100%;
   }
 }
 /* -------------------------------------- 500 ------------------------------------------ */
