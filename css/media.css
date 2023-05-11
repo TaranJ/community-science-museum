@@ -296,6 +296,18 @@
     max-height: 285px;
     width: 100%;
   }
+
+  .cosmology img {
+    max-height: 455px;
+  }
+
+  .evolution img {
+    max-height: 510px;
+  }
+
+  .biology img {
+    max-height: 580px;
+  }
 }
 
 /* ------------------------------------- TABLET ------------------------------------- */
@@ -414,26 +426,16 @@
     padding-bottom: 20px;
   }
 
-  .cosmology img {
-    max-height: 455px;
-  }
-
   .ecology img {
     width: 100%;
   }
 
   .evolution img {
     object-position: 30%;
-    max-height: 510px;
   }
 
   .robotics img {
     max-height: 305px;
-  }
-
-  .biology img {
-    max-height: 580px;
-    width: 100%;
   }
 }
 /* -------------------------------------- 500 ------------------------------------------ */
