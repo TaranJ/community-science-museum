@@ -468,7 +468,6 @@ fieldset {
 .young-stars-club {
   color: #fff;
   background-color: #f08100;
-  padding-top: 25px;
 }
 
 .young-stars-club h2 {
@@ -542,5 +541,5 @@ label {
   height: 400px;
   width: 100%;
   object-position: 50% 20%;
-  margin-bottom: -4px;
+  margin-bottom: 25px;
 }
