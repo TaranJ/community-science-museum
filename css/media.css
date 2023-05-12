@@ -46,7 +46,8 @@
   .nav label,
   .news-aero img,
   .news-night img,
-  .news-energy img {
+  .news-energy img,
+  .visit-library-mobile {
     display: none;
   }
 
@@ -175,6 +176,82 @@
   .ecology img {
     max-height: 370px;
     width: 100%;
+  }
+
+  /* VISIT */
+  .visit-banner {
+    height: 530px;
+  }
+
+  .visit h1 {
+    font-size: 2.7em;
+  }
+
+  .visit h3 {
+    color: #000;
+  }
+
+  .visit-info {
+    grid-template-columns: auto 520px;
+    max-width: 1200px;
+    margin: 70px auto;
+    display: grid;
+  }
+
+  .visit-us {
+    margin: 0px;
+  }
+
+  .opening-hours {
+    max-width: fit-content;
+    place-self: center;
+    padding: 50px 70px;
+  }
+
+  .opening-hours h3 {
+    color: #fff;
+    font-size: 2.1em;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+  }
+
+  table {
+    font-size: 1.2em;
+  }
+
+  th {
+    padding-bottom: 4px;
+  }
+
+  .visit-library {
+    background-image: url(/images/library-1132573_1920.jpg);
+    height: 390px;
+    background-size: cover;
+    background-position-y: 40%;
+  }
+
+  .accommodations {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 150px;
+    margin: 70px auto;
+    max-width: 1200px;
+    display: grid;
+  }
+
+  .accommodations h2 {
+    margin-bottom: 40px;
+  }
+
+  .accessibility {
+    grid-area: 2/1;
+  }
+
+  .food {
+    grid-area: 3/1;
+  }
+
+  .shop {
+    grid-area: 2/2;
   }
 }
 
