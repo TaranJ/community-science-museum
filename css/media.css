@@ -218,6 +218,40 @@
   .visit h3 {
     color: #000;
   }
+
+  /* ABOUT */
+  .about-banner {
+    height: 400px;
+    background-position-y: 45%;
+  }
+
+  .explore-together,
+  .join-us {
+    max-width: 1200px;
+    column-gap: 100px;
+  }
+
+  .explore-together h1 {
+    font-size: 3.5em;
+    letter-spacing: 5px;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .explore-together h2 {
+    margin: 0px 0px 25px 0px;
+  }
+
+  .about-copy {
+    margin: 0px 0px 40px 0px;
+  }
+
+  .about-images {
+    gap: 20px;
+  }
+
+  .join-us-desktop {
+    margin-top: 70px;
+  }
 }
 
 /* ---------------------------------- TABLET AND DESKTOP ------------------------------- */
@@ -419,6 +453,85 @@
   .shop {
     grid-area: 2/2;
   }
+
+  .hidden {
+    display: block;
+  }
+
+  .luke-ellis {
+    display: none;
+  }
+
+  .explore-together,
+  .join-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .explore-together {
+    margin: 70px auto;
+  }
+
+  .explore-together h1 {
+    grid-column: span 2;
+  }
+
+  .explore-together h2 {
+    font-size: 1.2em;
+    letter-spacing: 0px;
+  }
+
+  .science-live {
+    margin: 0px;
+    padding: 0px;
+    background-color: #edebeb;
+    color: #0d0d0d;
+  }
+
+  .about-copy {
+    width: 100%;
+  }
+
+  .about-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    max-width: 1700px;
+  }
+
+  .about-images img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .join-us-desktop {
+    background-color: #3668a3;
+    padding: 50px 0px;
+  }
+
+  .join-us {
+    margin: 0px auto;
+  }
+
+  .join-us h2,
+  .join-us h3 {
+    color: #fff;
+    margin: 0px;
+  }
+
+  .join-us h2 {
+    grid-column: span 2;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .join-us h3 {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .join-us .about-copy {
+    color: #fff;
+  }
 }
 
 /* ------------------------------------- TABLET ------------------------------------- */
@@ -580,6 +693,44 @@
   .accommodations h2 {
     margin-bottom: 20px;
   }
+
+  /* ABOUT */
+  .about-banner {
+    height: 300px;
+    background-position-y: center;
+  }
+
+  .explore-together,
+  .join-us {
+    max-width: 85%;
+    column-gap: 10px;
+  }
+
+  .explore-together h1 {
+    font-size: 2.3em;
+    letter-spacing: 1px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .explore-together h2 {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .about-copy {
+    margin: 0px 0px 25px 0px;
+  }
+
+  .about-images {
+    gap: 0px;
+  }
+
+  .billetto {
+    object-position: 80%;
+  }
+
+  .andrew-ruiz {
+    object-position: 15%;
+  }
 }
 /* ------------------------------- BIGGER THAN 500 ------------------------------------ */
 @media (min-width: 500px) {
@@ -732,9 +883,27 @@
   .visit-library-mobile {
     height: 300px;
   }
+
+  /* ABOUT */
+  .about-banner {
+    background-position-y: 70%;
+  }
+
+  .explore-together h1 {
+    font-size: 2em;
+  }
+
+  .explore-together h2 {
+    font-size: 1.2em;
+  }
+
+  .luke-ellis {
+    height: 500px;
+    object-position: 0 60%;
+  }
 }
 
-/* --------------------------------- BETWEEN 500 AND 1000 --------------------------------- */
+/* ---------------------------- BETWEEN 500 AND 1000 ---------------------------- */
 @media (min-width: 500px) and (max-width: 999px) {
   h1 {
     font-size: 2em;
@@ -782,6 +951,16 @@
 @media (min-width: 1000px) and (max-width: 1300px) {
   .visit-us {
     margin-left: 10%;
+  }
+
+  .explore-together,
+  .join-us {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .explore-together h1 {
+    white-space: nowrap;
   }
 }
 

@@ -193,6 +193,10 @@ footer nav {
   border-radius: 4px;
 }
 
+.active {
+  color: #a42e5d;
+}
+
 /* ------------------------------------ HOME PAGE ------------------------------------ */
 .hero-banner {
   background-image: url(/images/william-bout-264826.png);
@@ -642,6 +646,7 @@ th {
 
 .about-copy {
   margin: 0px auto 25px auto;
+  color: #0d0d0d;
 }
 
 .hidden {
