@@ -46,8 +46,7 @@
   .nav label,
   .news-aero img,
   .news-night img,
-  .news-energy img,
-  .visit-library-mobile {
+  .news-energy img {
     display: none;
   }
 
@@ -187,71 +186,33 @@
     font-size: 2.7em;
   }
 
-  .visit h3 {
-    color: #000;
-  }
-
   .visit-info {
     grid-template-columns: auto 520px;
     max-width: 1200px;
     margin: 70px auto;
-    display: grid;
-  }
-
-  .visit-us {
-    margin: 0px;
   }
 
   .opening-hours {
-    max-width: fit-content;
-    place-self: center;
     padding: 50px 70px;
   }
 
   .opening-hours h3 {
-    color: #fff;
     font-size: 2.1em;
     letter-spacing: 4px;
-    margin-bottom: 20px;
   }
 
   table {
     font-size: 1.2em;
   }
 
-  th {
-    padding-bottom: 4px;
-  }
-
-  .visit-library {
-    background-image: url(/images/library-1132573_1920.jpg);
-    height: 390px;
-    background-size: cover;
-    background-position-y: 40%;
-  }
-
   .accommodations {
-    grid-template-columns: 1fr 1fr;
     column-gap: 150px;
     margin: 70px auto;
     max-width: 1200px;
-    display: grid;
   }
 
   .accommodations h2 {
     margin-bottom: 40px;
-  }
-
-  .accessibility {
-    grid-area: 2/1;
-  }
-
-  .food {
-    grid-area: 3/1;
-  }
-
-  .shop {
-    grid-area: 2/2;
   }
 }
 
@@ -309,7 +270,8 @@
   .social-media img {
     max-width: 59px;
   }
-  .our-exhibitions-mobile {
+  .our-exhibitions-mobile,
+  .visit-library-mobile {
     display: none;
   }
 
@@ -405,6 +367,57 @@
 
   .for-kids h1 {
     margin-bottom: 50px;
+  }
+
+  /* VISIT */
+  .visit h3 {
+    color: #000;
+  }
+
+  .visit-info {
+    display: grid;
+  }
+
+  .visit-us {
+    margin: 0px;
+  }
+
+  .opening-hours {
+    max-width: fit-content;
+    place-self: center;
+  }
+
+  .opening-hours h3 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  th {
+    padding-bottom: 4px;
+  }
+
+  .visit-library {
+    background-image: url(/images/library-1132573_1920.jpg);
+    height: 390px;
+    background-size: cover;
+    background-position-y: 40%;
+  }
+
+  .accommodations {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  .accessibility {
+    grid-area: 2/1;
+  }
+
+  .food {
+    grid-area: 3/1;
+  }
+
+  .shop {
+    grid-area: 2/2;
   }
 }
 
@@ -533,6 +546,39 @@
 
   .robotics img {
     max-height: 305px;
+  }
+
+  /* VISIT */
+  .visit-banner {
+    height: 330px;
+  }
+
+  .visit h1 {
+    font-size: 2.2em;
+  }
+
+  .visit-info {
+    grid-template-columns: auto auto;
+    max-width: 90%;
+    margin: 40px auto;
+  }
+
+  .opening-hours {
+    padding: 20px 40px;
+  }
+
+  .opening-hours h3 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+  }
+
+  .accommodations {
+    column-gap: 50px;
+    margin: 40px auto;
+  }
+
+  .accommodations h2 {
+    margin-bottom: 20px;
   }
 }
 /* ------------------------------- BIGGER THAN 500 ------------------------------------ */
@@ -677,6 +723,15 @@
   .for-kids img {
     height: 450px;
   }
+
+  /* VISIT */
+  .visit-banner {
+    height: 200px;
+  }
+
+  .visit-library-mobile {
+    height: 300px;
+  }
 }
 
 /* --------------------------------- BETWEEN 500 AND 1000 --------------------------------- */
@@ -720,6 +775,13 @@
   .exhibition-img {
     background-position-x: 40%;
     background-position-y: center;
+  }
+}
+
+/* --------------------------------- BETWEEN 1000 AND 1300 --------------------------------- */
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .visit-us {
+    margin-left: 10%;
   }
 }
 
