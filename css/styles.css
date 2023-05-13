@@ -609,3 +609,69 @@ th {
   font-weight: 400;
   padding-right: 30px;
 }
+
+/* ------------------------------------ ABOUT ------------------------------------ */
+
+.about-banner {
+  background-image: url(/images/toa-heftiba-412579.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position-y: 85%;
+}
+
+.explore-together h1,
+.explore-together h2,
+.about-copy,
+.join-us h2,
+.join-us h3 {
+  width: 80%;
+}
+
+.explore-together h1 {
+  color: #0d0d0d;
+  font-size: 1.5em;
+  letter-spacing: 0px;
+  margin: 25px auto 10px auto;
+}
+
+.explore-together h2 {
+  color: #a42e5d;
+  font-size: 1em;
+  margin: auto;
+}
+
+.about-copy {
+  margin: 0px auto 10px auto;
+  line-height: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+.luke-ellis {
+  margin: 20px 0px -5px 0px;
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.science-live {
+  background-color: #3668a3;
+  color: #fff;
+  margin: 0px;
+  line-height: 1.3;
+  padding: 10%;
+}
+
+.join-us {
+  margin-bottom: 45px;
+}
+
+.join-us h3,
+.join-us h2 {
+  color: #0d0d0d;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}

@@ -214,6 +214,10 @@
   .accommodations h2 {
     margin-bottom: 40px;
   }
+
+  .visit h3 {
+    color: #000;
+  }
 }
 
 /* ---------------------------------- TABLET AND DESKTOP ------------------------------- */
@@ -370,10 +374,6 @@
   }
 
   /* VISIT */
-  .visit h3 {
-    color: #000;
-  }
-
   .visit-info {
     display: grid;
   }
