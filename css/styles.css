@@ -344,6 +344,11 @@ footer nav {
   margin-top: 10px;
 }
 
+#newsletter {
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
 .newsletter {
   background-color: #3668a3;
   margin: auto;
@@ -582,6 +587,13 @@ label {
   border-color: #41a650;
   border-width: 1px;
   border-radius: 5px;
+}
+
+#name,
+#email,
+#message {
+  padding-left: 5px;
+  font-size: 1em;
 }
 
 .join-form p {
