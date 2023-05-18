@@ -197,6 +197,30 @@ footer nav {
   color: #a42e5d;
 }
 
+/* ------------------------------------ ANIMATIONS ------------------------------------ */
+
+.nav a:hover {
+  font-weight: 600;
+}
+
+.nav .active:hover {
+  font-weight: 400;
+}
+
+.cta:hover,
+.join-form .cta:hover {
+  background-color: #41a650;
+  border: solid 1px #000;
+}
+
+.cta-varied:hover {
+  background-color: #f08100;
+}
+
+.explore-section .cta-varied:hover {
+  background-color: #41a650;
+}
+
 /* ------------------------------------ HOME PAGE ------------------------------------ */
 .hero-banner {
   background-image: url(/images/william-bout-264826.png);
@@ -296,6 +320,13 @@ footer nav {
   justify-self: end;
   grid-area: 2/1;
   align-self: end;
+}
+
+.slide-icons {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  max-width: 80px;
 }
 
 .newsletter {

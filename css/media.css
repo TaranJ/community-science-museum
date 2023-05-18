@@ -46,7 +46,8 @@
   .nav label,
   .news-aero img,
   .news-night img,
-  .news-energy img {
+  .news-energy img,
+  .slide-icons {
     display: none;
   }
 
