@@ -326,7 +326,8 @@ footer nav {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  max-width: 80px;
+  max-width: 100px;
+  margin-top: 10px;
 }
 
 .newsletter {
