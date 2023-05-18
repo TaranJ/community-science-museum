@@ -104,7 +104,8 @@ header {
   margin-bottom: 6px;
 }
 
-#menu-checkbox {
+#menu-checkbox,
+.newsletter label {
   display: none;
 }
 
@@ -194,7 +195,17 @@ footer nav {
 }
 
 .active {
-  color: #a42e5d;
+  color: #41a650;
+}
+
+.slide-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #8aaacf;
+}
+
+.slide-icon-dark {
+  background-color: #3668a3;
 }
 
 /* ------------------------------------ ANIMATIONS ------------------------------------ */
@@ -215,16 +226,16 @@ footer nav {
 }
 
 .cta-varied:hover {
-  background-color: #f08100;
+  background-color: #e17a02;
 }
 
 .explore-section .cta-varied:hover {
-  background-color: #41a650;
+  background-color: #3a9748;
 }
 
 /* ------------------------------------ HOME PAGE ------------------------------------ */
 .hero-banner {
-  background-image: url(/images/william-bout-264826.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1)), url(/images/william-bout-264826.png);
   background-size: cover;
   background-position: center;
   margin: 0px;
@@ -247,11 +258,13 @@ footer nav {
   width: 100%;
   display: flex;
   justify-content: end;
+  color: #fff;
 }
 
 .cta-varied a,
 .cta-varied img {
   margin-right: 15px;
+  color: #fff;
 }
 
 .news {
@@ -296,16 +309,16 @@ footer nav {
 }
 
 .news-aero {
-  background-image: url(/images/aircraft-g18bd9296f_1920.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1)), url(/images/aircraft-g18bd9296f_1920.png);
 }
 
 .news-night {
-  background-image: url(/images/celso-405219.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1)), url(/images/celso-405219.jpg);
   background-position-y: 100px;
 }
 
 .news-energy {
-  background-image: url(/images/bulb-g3f89b32c0_1920.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1)), url(/images/bulb-g3f89b32c0_1920.png);
   background-position-x: left;
 }
 
@@ -432,6 +445,14 @@ footer nav {
   background-color: #3669a3c4;
 }
 
+.slide-icon-grey {
+  background-color: #a5a5a5;
+}
+
+.slide-icon-dark-grey {
+  background-color: #0d0d0d;
+}
+
 .exhibitions {
   display: grid;
   gap: 40px;
@@ -458,7 +479,8 @@ footer nav {
 
 .evolution,
 .ecology {
-  background-color: #41a650;
+  background-color: #358641;
+  color: #fff;
 }
 
 .biology {
@@ -524,7 +546,7 @@ fieldset {
 }
 
 form {
-  background-color: #41a650;
+  background-color: #358641;
   padding: 25px 0px;
 }
 

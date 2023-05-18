@@ -319,6 +319,7 @@
     background-image: url(/images/exhibition.png);
     background-repeat: no-repeat;
     background-position: center;
+    filter: brightness(98%);
   }
 
   .explore-section {
@@ -342,7 +343,7 @@
   }
 
   .explore-section .cta-varied {
-    background-color: #f08100;
+    background-color: #e17a02;
     padding: 10px 100px 0px 100px;
     justify-self: end;
     margin-right: 40px;
@@ -763,7 +764,7 @@
 
   .cta-varied {
     font-family: "Ravi Prakash", Georgia, "Times New Roman", Times, serif;
-    background-color: #41a650;
+    background-color: #3a9748;
     width: fit-content;
     align-self: start;
     border: solid #000 1px;
