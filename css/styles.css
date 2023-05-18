@@ -199,7 +199,8 @@ footer nav {
 
 /* ------------------------------------ ANIMATIONS ------------------------------------ */
 
-.nav a:hover {
+.nav a:hover,
+.news h3:hover {
   font-weight: 600;
 }
 
@@ -393,8 +394,13 @@ footer nav {
   padding-left: 25px;
 }
 
-.explore p {
+.hover-text {
   display: none;
+  color: #fff;
+  max-width: 80%;
+  text-align: center;
+  place-self: center;
+  grid-row: span 2;
 }
 
 .kids {

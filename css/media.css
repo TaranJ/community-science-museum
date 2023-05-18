@@ -309,6 +309,7 @@
   .social-media img {
     max-width: 59px;
   }
+
   .our-exhibitions-mobile,
   .visit-library-mobile {
     display: none;
@@ -345,6 +346,26 @@
     padding: 10px 100px 0px 100px;
     justify-self: end;
     margin-right: 40px;
+  }
+
+  /* EXPLORE */
+
+  .kids:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.6)), url(/images/learn-2405206_1920.jpg);
+  }
+
+  .teachers:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(/images/teacher-g554695038_1920.jpg);
+  }
+
+  .researchers:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(/images/people-219985_1280.jpg);
+  }
+
+  .kids:hover > .hover-text,
+  .teachers:hover > .hover-text,
+  .researchers:hover > .hover-text {
+    display: block;
   }
 
   .cosmology,
@@ -704,7 +725,7 @@
   .explore-together,
   .join-us {
     max-width: 85%;
-    column-gap: 10px;
+    column-gap: 50px;
   }
 
   .explore-together h1 {
@@ -813,6 +834,10 @@
 
   .researchers h2 {
     background-color: #3669a38f;
+  }
+
+  .slide-icons-grey {
+    display: none;
   }
 }
 
