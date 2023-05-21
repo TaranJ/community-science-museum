@@ -235,7 +235,7 @@ footer nav {
 
 /* ------------------------------------ HOME PAGE ------------------------------------ */
 .hero-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1)), url(/images/william-bout-264826.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1)), url(/images/william-bout-264826.jpg);
   background-size: cover;
   background-position: center;
   margin: 0px;
@@ -616,10 +616,10 @@ label {
 /* ------------------------------------ VISIT ------------------------------------ */
 
 .visit-banner {
-  background-image: url(/images/roberto-nickson-396152.jpg);
-  height: 125px;
+  background-image: url(/images/national-history-museum-ga82c6ae16_1920.jpg);
+  height: 200px;
   background-size: cover;
-  background-position-y: 60%;
+  background-position-y: 40%;
 }
 
 .visit-us,
@@ -681,10 +681,11 @@ th {
 /* ------------------------------------ ABOUT ------------------------------------ */
 
 .about-banner {
-  background-image: url(/images/toa-heftiba-412579.jpg);
+  background-image: url(/images/architecture-gc3a97575e_1920.jpg);
   height: 350px;
   background-size: cover;
-  background-position-y: 85%;
+  background-position-x: center;
+  background-position-y: top;
 }
 
 .explore-together h1,

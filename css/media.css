@@ -181,6 +181,7 @@
   /* VISIT */
   .visit-banner {
     height: 530px;
+    background-position-y: 25%;
   }
 
   .visit h1 {
@@ -222,8 +223,8 @@
 
   /* ABOUT */
   .about-banner {
-    height: 400px;
-    background-position-y: 45%;
+    height: 420px;
+    background-position-y: 40%;
   }
 
   .explore-together,
@@ -316,7 +317,7 @@
   }
 
   .exhibition-img {
-    background-image: url(/images/exhibition.png);
+    background-image: url(/images/exhibition.jpg);
     background-repeat: no-repeat;
     background-position: center;
     filter: brightness(98%);
@@ -686,7 +687,8 @@
 
   /* VISIT */
   .visit-banner {
-    height: 330px;
+    height: 380px;
+    background-position-y: 30%;
   }
 
   .visit h1 {
@@ -720,7 +722,7 @@
   /* ABOUT */
   .about-banner {
     height: 300px;
-    background-position-y: center;
+    background-position-y: 25%;
   }
 
   .explore-together,
@@ -901,7 +903,8 @@
 
   /* VISIT */
   .visit-banner {
-    height: 200px;
+    height: 300px;
+    background-position-y: 30%;
   }
 
   .visit-library-mobile {
@@ -909,10 +912,6 @@
   }
 
   /* ABOUT */
-  .about-banner {
-    background-position-y: 70%;
-  }
-
   .explore-together h1 {
     font-size: 2em;
   }
