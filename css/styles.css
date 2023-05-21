@@ -682,9 +682,9 @@ th {
 
 .about-banner {
   background-image: url(/images/ant-rozetsky-Lt8rGTnhW2w-unsplash.jpg);
-  height: 350px;
+  height: 250px;
   background-size: cover;
-  background-position-y: top;
+  background-position-x: center;
 }
 
 .explore-together h1,
