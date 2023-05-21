@@ -450,14 +450,6 @@ footer nav {
   background-color: #3669a3c4;
 }
 
-.slide-icon-grey {
-  background-color: #a5a5a5;
-}
-
-.slide-icon-dark-grey {
-  background-color: #0d0d0d;
-}
-
 .exhibitions {
   display: grid;
   gap: 40px;

@@ -136,7 +136,7 @@
 
   .cta {
     margin-left: 20px;
-    padding: 5px 50px 2px 50px;
+    padding: 5px 45px 0px 45px;
     font-size: 2em;
   }
 
@@ -758,7 +758,8 @@
 /* ------------------------------- BIGGER THAN 500 ------------------------------------ */
 @media (min-width: 500px) {
   /* HOME */
-  .arrow {
+  .arrow,
+  .kids-mobile {
     display: none;
   }
 
@@ -835,10 +836,6 @@
 
   .researchers h2 {
     background-color: #3669a38f;
-  }
-
-  .slide-icons-grey {
-    display: none;
   }
 }
 
@@ -991,6 +988,14 @@
   }
 }
 
+/* --------------------------------- BETWEEN 1000 AND 1230 --------------------------------- */
+@media (min-width: 1000px) and (max-width: 1230px) {
+  .news-heading,
+  .explore h1 {
+    margin-left: 10px;
+  }
+}
+
 /* --------------------------------- MOBILE ---------------------------------------------- */
 @media (max-width: 500px) {
   .explore h1 {
@@ -1029,6 +1034,13 @@
   }
 }
 
+/* --------------------------------- SMALLER THAN 500 --------------------------------- */
+@media (max-width: 500px) {
+  .kids-pc {
+    display: none;
+  }
+}
+
 /* --------------------------------- BIGGER THAN 1200 --------------------------------- */
 @media (min-width: 1200px) {
   /* FOR KIDS */
@@ -1061,6 +1073,24 @@
 
   form {
     margin: 50px;
+    background-color: #fff;
+    color: #0d0d0d;
+  }
+
+  fieldset {
+    width: 80%;
+  }
+
+  .join-form {
+    padding: 0px;
+  }
+
+  .join-form input {
+    border-color: #0d0d0d;
+  }
+
+  .join-form .cta:hover {
+    background-color: #e17a02;
   }
 
   .young-stars-club-copy,
