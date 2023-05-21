@@ -999,6 +999,10 @@
   .explore h1 {
     display: none;
   }
+
+  .kids-pc {
+    display: none;
+  }
 }
 
 /* --------------------------------- SMALLER THAN 700 --------------------------------- */
@@ -1029,13 +1033,6 @@
   fieldset {
     max-width: 600px;
     margin: 20px auto 50px auto;
-  }
-}
-
-/* --------------------------------- SMALLER THAN 500 --------------------------------- */
-@media (max-width: 500px) {
-  .kids-pc {
-    display: none;
   }
 }
 
