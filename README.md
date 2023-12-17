@@ -2,7 +2,7 @@
 
 ![image](https://portfolio-tjohannessen.netlify.app/images/communityScienceMuseum.jpg)
 
-The Community Science Museum is an interactive museum for families and primary and middle school children.
+The Community Science Museum is an interactive museum for families as well as primary and middle school children.
 
 ## Description
 
